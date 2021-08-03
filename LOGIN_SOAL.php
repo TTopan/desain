@@ -96,11 +96,11 @@ and open the template in the editor.
         <form action="SOAL_IPA.php" method="GET">
             <div class="field"></div>
             <div class="pelajaran">
-                <!--                <br><h1 style="top: 0%;font-size: 60px">IPA</h1>-->
+     
                 <input style="color:black" type="text" placeholder="Pelajaran" name="pelajaran" id="pelajaran">
             </div>
             <div class="guru">
-                <!--<h1>BAPAK E</h1>-->
+ 
                 <input style="color:black" type="text" placeholder="Nama Guru" name="guru" id="guru">
             </div>
             <div class="kelas">
@@ -115,32 +115,6 @@ and open the template in the editor.
             
             <br><br><br>
             <input type="submit" value="submit" style="font-size: 50px">
-            <!--            <a href="SOAL_IPA.php" onclick="soal1()"><h1>MASUK</h1></a>-->
         </form>
-<!--        <script type="text/javascript" onclick="soal1()" src="SOAL_IPA.php">
-            function soal1() {
-                var pelajaran;
-                var guru;
-                var kelas;
-                var nama;
-                var nomor;
-                var text_pelajaran = document.getElementById("text_pelajaran").value;
-                // BENAR
-                var input_pelajaran = document.getElementById("pelajaran").value;
-//                var input_guru = document.getElementById("nama").value;
-                // 
-                document.getElementById("text_pelajaran").innerHTML = input_pelajaran;
-//                if (input_pelajaran === document.getElementById("pelajaran").innerHTML) {
-//                    document.getElementById("pelajaran").innerHTML = pelajaran;
-//                }
-
-                document.getElementById("guru").innerHTML = guru;
-                document.getElementsById("kelas").innerHTML = kelas;
-                document.getElementsById("nama").innerHTML = nama;
-                document.getElementsById("nomor").innerHTML = nomor;
-
-                // MENAMPILKAN
-                // PELAJARAN, GURU, KELAS, NAMA, NOMOR
-        </script>-->
     </body>
 </html>
